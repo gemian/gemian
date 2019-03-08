@@ -10,17 +10,27 @@ Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
 Description: Gemian system
- This package depends on all of the packages in the Gemian system
+ This package depends on all of the packages for the full the Gemian desktop
  .
  It is safe to remove this package if some of the system packages are
  not desired.
 
-Package: gemian-core
+Package: gemian-desktop-wifi
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: Gemian core system
- This package depends on the core set of a functional Gemian system
+Description: Gemian system
+ This package depends on all of the packages for the full the Gemian desktop
+ .
+ It is safe to remove this package if some of the system packages are
+ not desired.
+
+Package: gemian-minimal
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Gemian minimal desktop system
+ This package depends on the core set for a functional Gemian system
  .
  It is safe to remove this package if some of the included packages are
  not desired.
