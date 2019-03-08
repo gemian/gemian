@@ -25,7 +25,7 @@ Description: Gemian system
  It is safe to remove this package if some of the system packages are
  not desired.
 
-Package: gemian-minimal
+Package: gemian-desktop-minimal
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
