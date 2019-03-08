@@ -1,0 +1,26 @@
+Source: gemian-meta
+Section: metapackages
+Priority: optional
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+Standards-Version: 4.1.3
+Build-Depends: debhelper, germinate
+
+Package: gemian-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Gemian system
+ This package depends on all of the packages in the Gemian system
+ .
+ It is safe to remove this package if some of the system packages are
+ not desired.
+
+Package: gemian-core
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Gemian core system
+ This package depends on the core set of a functional Gemian system
+ .
+ It is safe to remove this package if some of the included packages are
+ not desired.
