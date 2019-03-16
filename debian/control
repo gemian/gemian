@@ -9,7 +9,7 @@ Package: gemian-desktop
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: Gemian system
+Description: Gemian full desktop system (4G)
  This package depends on all of the packages for the full the Gemian desktop
  .
  It is safe to remove this package if some of the system packages are
@@ -19,7 +19,7 @@ Package: gemian-desktop-wifi
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: Gemian system
+Description: Gemian full desktop system (WiFi only)
  This package depends on all of the packages for the full the Gemian desktop
  .
  It is safe to remove this package if some of the system packages are
